@@ -1,0 +1,76 @@
+2025-12-11 10:09:02,369 - aqt.main - INFO - installer 28516 aqtinstall(aqt) v3.3.0 on Python 3.13.3 [CPython MSC v.1943 64 bit (AMD64)]
+2025-12-11 10:09:02,370 - aqt.helper - DEBUG - helper 28516 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt6_660/Updates.xml.sha256
+2025-12-11 10:09:09,705 - aqt.helper - DEBUG - helper 22068 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt6_660/qt.qt6.660.win64_mingw/6.6.0-0-202310040911qtbase-Windows-Windows_10_22H2-Mingw-Windows-Windows_10_22H2-X86_64.7z.sha256
+2025-12-11 10:09:09,718 - aqt.helper - DEBUG - helper 11404 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt6_660/qt.qt6.660.win64_mingw/6.6.0-0-202310040911qttools-Windows-Windows_10_22H2-Mingw-Windows-Windows_10_22H2-X86_64.7z.sha256
+2025-12-11 10:09:10,327 - aqt.helper - INFO - helper 22068 Downloading qtbase...
+2025-12-11 10:09:10,328 - aqt.installer - DEBUG - installer 22068 Download URL: https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt6_660/qt.qt6.660.win64_mingw/6.6.0-0-202310040911qtbase-Windows-Windows_10_22H2-Mingw-Windows-Windows_10_22H2-X86_64.7z
+2025-12-11 10:09:10,534 - aqt.helper - INFO - helper 11404 Downloading qttools...
+2025-12-11 10:09:10,534 - aqt.installer - DEBUG - installer 11404 Download URL: https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt6_660/qt.qt6.660.win64_mingw/6.6.0-0-202310040911qttools-Windows-Windows_10_22H2-Mingw-Windows-Windows_10_22H2-X86_64.7z
+2025-12-11 10:09:11,147 - aqt.helper - DEBUG - helper 22068 Asked to redirect(302) to: https://qtproject.mirror.liquidtelecom.com/online/qtsdkrepository/windows_x86/desktop/qt6_660/qt.qt6.660.win64_mingw/6.6.0-0-202310040911qtbase-Windows-Windows_10_22H2-Mingw-Windows-Windows_10_22H2-X86_64.7z
+
+2025-12-11 10:09:11,147 - aqt.helper - INFO - helper 11404 Redirected: qtproject.mirror.liquidtelecom.com
+2025-12-11 10:09:11,147 - aqt.helper - INFO - helper 22068 Redirected: qtproject.mirror.liquidtelecom.com
+2025-12-11 10:09:41,082 - aqt.installer - INFO - installer 11404 Finished installation of qttools-Windows-Windows_10_22H2-Mingw-Windows-Windows_10_22H2-X86_64.7z in 31.36654450
+2025-12-11 10:09:46,701 - aqt.installer - INFO - installer 22068 Finished installation of qtbase-Windows-Windows_10_22H2-Mingw-Windows-Windows_10_22H2-X86_64.7z in 36.99926620
+2025-12-11 10:09:56,687 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Concurrent.pc
+2025-12-11 10:09:56,693 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Core.pc
+2025-12-11 10:09:56,699 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6DBus.pc
+2025-12-11 10:09:56,704 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Designer.pc
+2025-12-11 10:09:56,709 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Gui.pc
+2025-12-11 10:09:56,715 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Help.pc
+2025-12-11 10:09:56,719 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Linguist.pc
+2025-12-11 10:09:56,725 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Network.pc
+2025-12-11 10:09:56,730 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6OpenGL.pc
+2025-12-11 10:09:56,736 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6OpenGLWidgets.pc
+2025-12-11 10:09:56,745 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Platform.pc
+2025-12-11 10:09:56,753 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6PrintSupport.pc
+2025-12-11 10:09:56,760 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6QDocCatchConversionsPrivate.pc
+2025-12-11 10:09:56,768 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6QDocCatchGeneratorsPrivate.pc
+2025-12-11 10:09:56,774 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Sql.pc
+2025-12-11 10:09:56,783 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Test.pc
+2025-12-11 10:09:56,790 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6UiPlugin.pc
+2025-12-11 10:09:56,798 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6UiTools.pc
+2025-12-11 10:09:56,807 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Widgets.pc
+2025-12-11 10:09:56,815 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\pkgconfig\Qt6Xml.pc
+2025-12-11 10:09:56,825 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Concurrent.prl
+2025-12-11 10:09:56,833 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Core.prl
+2025-12-11 10:09:56,841 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6DBus.prl
+2025-12-11 10:09:56,848 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Designer.prl
+2025-12-11 10:09:56,855 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6DesignerComponents.prl
+2025-12-11 10:09:56,862 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6DeviceDiscoverySupport.prl
+2025-12-11 10:09:56,870 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6EntryPoint.prl
+2025-12-11 10:09:56,877 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6ExampleIcons.prl
+2025-12-11 10:09:56,886 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6FbSupport.prl
+2025-12-11 10:09:56,894 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Gui.prl
+2025-12-11 10:09:56,903 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Help.prl
+2025-12-11 10:09:56,910 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Network.prl
+2025-12-11 10:09:56,918 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6OpenGL.prl
+2025-12-11 10:09:56,925 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6OpenGLWidgets.prl
+2025-12-11 10:09:56,933 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6PrintSupport.prl
+2025-12-11 10:09:56,941 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Sql.prl
+2025-12-11 10:09:56,949 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Test.prl
+2025-12-11 10:09:56,957 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6UiTools.prl
+2025-12-11 10:09:56,965 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Widgets.prl
+2025-12-11 10:09:56,972 - aqt.updater - INFO - updater 28516 Patching C:\Qt\6.6.0\mingw_64\lib\Qt6Xml.prl
+2025-12-11 10:09:56,997 - aqt.main - INFO - installer 28516 Finished installation
+2025-12-11 10:09:56,998 - aqt.main - INFO - installer 28516 Time elapsed: 54.62873660 second
+2025-12-11 10:10:00,302 - aqt.main - INFO - installer 11464 aqtinstall(aqt) v3.3.0 on Python 3.13.3 [CPython MSC v.1943 64 bit (AMD64)]
+2025-12-11 10:10:00,302 - aqt.helper - DEBUG - helper 11464 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw1120/Updates.xml.sha256
+2025-12-11 10:10:00,704 - aqt.helper - DEBUG - helper 11464 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw1120/Updates.xml.sha256
+2025-12-11 10:10:01,109 - aqt.helper - DEBUG - helper 11464 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw1120/Updates.xml.sha256
+2025-12-11 10:10:01,503 - aqt.helper - DEBUG - helper 11464 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw1120/Updates.xml.sha256
+2025-12-11 10:10:01,896 - aqt.helper - DEBUG - helper 11464 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw1120/Updates.xml.sha256
+2025-12-11 10:10:02,276 - aqt.main - ERROR - installer 11464 Failed to locate XML data for the tool 'tools_mingw1120'.
+==============================Suggested follow-up:==============================
+* Please use 'aqt list-tool windows desktop' to check what tools are available.
+2025-12-11 10:12:46,892 - aqt.helper - DEBUG - helper 16528 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw90/Updates.xml.sha256
+2025-12-11 10:13:40,499 - aqt.main - INFO - installer 25812 aqtinstall(aqt) v3.3.0 on Python 3.13.3 [CPython MSC v.1943 64 bit (AMD64)]
+2025-12-11 10:13:40,499 - aqt.helper - DEBUG - helper 25812 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw90/Updates.xml.sha256
+2025-12-11 10:13:45,107 - aqt.helper - DEBUG - helper 11664 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw90/qt.tools.win64_mingw900/9.0.0-1-202203221220mingw-w64-x86_64-11.2.0-release-posix-seh-rt_v9-rev3.7z.sha256
+2025-12-11 10:13:45,516 - aqt.helper - INFO - helper 11664 Downloading qt.tools.win64_mingw900...
+2025-12-11 10:13:45,516 - aqt.installer - DEBUG - installer 11664 Download URL: https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw90/qt.tools.win64_mingw900/9.0.0-1-202203221220mingw-w64-x86_64-11.2.0-release-posix-seh-rt_v9-rev3.7z
+2025-12-11 10:13:45,915 - aqt.helper - DEBUG - helper 11664 Asked to redirect(302) to: https://qtproject.mirror.liquidtelecom.com/online/qtsdkrepository/windows_x86/desktop/tools_mingw90/qt.tools.win64_mingw900/9.0.0-1-202203221220mingw-w64-x86_64-11.2.0-release-posix-seh-rt_v9-rev3.7z
+2025-12-11 10:13:45,916 - aqt.helper - INFO - helper 11664 Redirected: qtproject.mirror.liquidtelecom.com
+2025-12-11 10:16:45,559 - aqt.installer - INFO - installer 11664 Finished installation of mingw-w64-x86_64-11.2.0-release-posix-seh-rt_v9-rev3.7z in 180.45519200
+2025-12-11 10:16:45,867 - aqt.main - INFO - installer 25812 Finished installation
+2025-12-11 10:16:45,867 - aqt.main - INFO - installer 25812 Time elapsed: 185.36866350 second
