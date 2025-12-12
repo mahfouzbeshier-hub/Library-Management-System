@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+00669fbca5632fe20e87274787ba6e12 CMakeFiles/LibraryManagementSystem_autogen
+e3e6e7b2f33723ae08c9e88526ace3a4 LibraryManagementSystem_autogen/timestamp

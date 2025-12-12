@@ -1,0 +1,5 @@
+D:/Desktop/ANTI/build/CMakeFiles/LibraryManagementSystem.dir
+D:/Desktop/ANTI/build/CMakeFiles/edit_cache.dir
+D:/Desktop/ANTI/build/CMakeFiles/rebuild_cache.dir
+D:/Desktop/ANTI/build/CMakeFiles/LibraryManagementSystem_autogen_timestamp_deps.dir
+D:/Desktop/ANTI/build/CMakeFiles/LibraryManagementSystem_autogen.dir
